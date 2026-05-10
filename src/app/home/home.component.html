@@ -1,0 +1,8 @@
+<button (click)="logout()">Logout</button>
+
+<ul>
+    <li *ngFor="let user of users">
+        {{ user.name }} - {{ user.email }}
+        <button (click)="delete(user._id)">Delete</button>
+    </li>
+</ul>
