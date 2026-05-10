@@ -16,6 +16,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { DataComponent } from './data/data.component';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     HomeComponent,
     SingUPComponent,
     ListComponent,
+    DataComponent,
   ],
   imports: [
     BrowserModule,
